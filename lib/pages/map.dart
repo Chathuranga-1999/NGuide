@@ -7,6 +7,7 @@ class FacultyMap extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //page appbar
      appBar: AppBar(
         toolbarHeight: 70,
         title: Text("Map",
@@ -34,7 +35,7 @@ class FacultyMap extends StatelessWidget {
             ),
              
             
-            
+
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 1.0),
               child: Container(
