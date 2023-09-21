@@ -21,6 +21,7 @@ class FacultyMap extends StatelessWidget {
         actions: <Widget>[
         ],
          backgroundColor:   Color.fromARGB(255, 255, 255, 248),
+         //side bar icon
           leading: IconButton(onPressed: (){
               Navigator.push(context, MaterialPageRoute(builder: (context) => const SideBar()));
           }, icon: Icon(Icons.menu),color: Colors.black,iconSize: 40),
